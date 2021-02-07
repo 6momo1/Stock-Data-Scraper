@@ -32,7 +32,7 @@ def urlify(s):
 
 
 #to convert the json to sql appliable 
-# pass a dictionary 
+# pass a dictionary
 def formatting(dic):
 	#populates and returns a new correct dic
 	dic = {}

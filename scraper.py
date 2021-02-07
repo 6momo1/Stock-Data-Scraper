@@ -1,19 +1,26 @@
-import functions
-import sql_functions
+import time
+import requests
+from bs4 import BeautifulSoup
+import json
+import re
 
 
-#sql_functions.update('TSLA','Sector','Technology')
+def urlify(s):
+	"""
+	his is a function that converts the dic to sql friendly syntax
+	"""
+    s = re.sub(r"[^\w\s]", '', s)
+    s = re.sub(r"\s+", '_', s)
+    if "Index" in s:
+    	s = "Idx"
+    if "Change" in s:
+    	s = "Chg"
+    return s
 
-# li = ['TSLA','FB']
-# for x in li:
-# 	sql_functions.insert_token_data(x)
-
-
-
-sql_functions.insert_token_data('MA')
-# sql_functions.drop_token('GM')
-
-def table(token):
+def get_ticker_info(token):
+	"""
+	Returns table data of from the give token as a dictionary
+	"""
 	try:
 		url = 'https://finviz.com/quote.ashx?t={}'.format(token)
 		headers = {'User-Agent':"Mozilla/5.0(Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"}
@@ -36,9 +43,3 @@ def table(token):
 	except Exception as e:
 		print(e)
 
-		#<table> has one <tbody>
-		#table[0] = <tbody>
-		# #in <tbody> there are 12 rows of <tr>, row
-		# table1 = table[0].find_all('tr')
-		# #in each <tr> there are 12 <td>, column
-		# table2 = table1[0].find_all('td')
