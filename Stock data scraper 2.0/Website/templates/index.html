@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block title %}
+Home Page
+{% endblock %}
+
+{% block content %}
+<body>
+	<h1>Screener</h1>
+
+	<form method="post">
+		<label for="fname">Ticker: </label>
+		<input type="text" id="ticker" name="ticker">
+		<input type="submit" value="Submit">
+	</form>
+
+	<h1>Ticker:{{ ticker }}</h1>
+  <h2>Form: {{ form }}</h2>
+	<h2>List of searched tickers: {{ temp_ticker_list }}</h2>
+
+
+
+	<table id="proxies" class="display table nowrap responsive" style="width: 100%">
+              
+
+              <!-- header row -->
+              <thead>
+                <tr>
+                  {% for header in header_list %}
+                    <th>{{header}}</th>
+                  {% endfor %}
+                </tr>
+              </thead>
+
+              <!-- display results -->
+              <tbody>
+                {% for row in temp_stats_list %}
+                  <tr>
+                    {% for index in range(72) %}
+                      <td>{{ row[header_list[index]] }}</td>
+                    {% endfor %}
+                  </tr>
+                {% endfor %}
+              </tbody>
+    </table>
+
+    <form method="post" action="{{url_for('save')}}">
+      <button method="post" id="save" name="save" value="save">Save to Database</button>
+    </form>
+
+
+    <table id="proxies" class="display table nowrap responsive" style="width: 100%">
+              
+
+              <!-- header row -->
+              <thead>
+                <tr>
+                  <th>Ticker</th>
+                  <th>HTML</th>
+                </tr>
+              </thead>
+
+              <!-- display results -->
+              <tbody>
+                {% for row in temp_page_list %}
+                  <tr>
+                    {% for index in range(2) %}
+                      <td>{{ row[index] }}</td>
+                    {% endfor %}
+                  </tr>
+                {% endfor %}
+              </tbody>
+    </table>
+
+
+</body>
+  <script type="text/javascript">
+    $('#proxies').DataTable();
+  </script>
+
+{% endblock %}
