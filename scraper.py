@@ -14,7 +14,7 @@ class Scraper:
     def get_header_list(self):
         return self.header_list
 
-    def urlify(self, s):
+    def urlify(self, s) -> None:
         """
         this is a function that converts the dic to sql friendly syntax
         """
@@ -27,7 +27,7 @@ class Scraper:
 
         return s
 
-    def get_token_stats(self, token):
+    def get_token_stats(self, token: str) -> dict:
         """
         Returns a dictionary containing 'token' and 'data'
         """
@@ -35,7 +35,15 @@ class Scraper:
             url = 'https://finviz.com/quote.ashx?t={}'.format(token)
             headers = {
                 'User-Agent': "Mozilla/5.0(Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"}
-            req = requests.get(url, headers=headers)
+
+            # if requst's status code is not 200, raise Error
+            try:
+                req = requests.get(url, headers=headers)
+                if req.status_code != 200:
+                    raise Exception(
+                        f"[ERROR] Token '{token}' is invalid.  Status code: {req.status_code}""")
+            except Exception as e:
+                print(e)
 
             # retrieve HTML page
             soup = BeautifulSoup(req.content, 'html.parser')
@@ -60,4 +68,4 @@ class Scraper:
             return dic
 
         except Exception as e:
-            print(e)
+            pass
