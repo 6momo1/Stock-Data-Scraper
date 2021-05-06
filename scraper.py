@@ -27,9 +27,9 @@ class Scraper:
 
         return s
 
-    def get_ticker_stats(self, token):
+    def get_token_stats(self, token):
         """
-        Returns table data of from the give token as a dictionary
+        Returns a dictionary containing 'token' and 'data'
         """
         try:
             url = 'https://finviz.com/quote.ashx?t={}'.format(token)
