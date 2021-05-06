@@ -5,7 +5,7 @@ from Scraper import Scraper
 scraper = Scraper()
 Utils = Utils()
 
-tokens = ['msft', 'apl', 'pypl']
+tokens = ['mst', 'aapl', 'pypl', 'GM', 'abnb', 'spot']
 
 stock_list_data = Utils.handle_user_input(tokens)
 stock_df = Utils.dict_to_df(stock_list_data)

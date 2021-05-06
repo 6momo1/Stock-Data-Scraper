@@ -41,7 +41,7 @@ class Scraper:
                 req = requests.get(url, headers=headers)
                 if req.status_code != 200:
                     raise Exception(
-                        f"[ERROR] Token '{token}' is invalid.  Status code: {req.status_code}""")
+                        f"\n[ERROR] Token '{token}' is invalid.  Status code: {req.status_code}")
             except Exception as e:
                 print(e)
 

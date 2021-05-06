@@ -17,7 +17,7 @@ class Utils:
         # current working directory
         cwd = os.getcwd()
         path = os.path.join(cwd, file_name + ".csv")
-        print("\n CSV file saved to path: ", path, "\n")
+        print("\n CSV file saved to path: ", path)
 
         stock_list_df.to_csv(path, index=False)
 
@@ -27,7 +27,7 @@ class Utils:
         """
         stock_list_df = pd.DataFrame.from_dict(stock_list_data)
         stock_list_df.set_index('token')
-        print(stock_list_df)
+        print('\n', stock_list_df)
         return stock_list_df
 
     def handle_user_input(self, tokens: List[str], headers: List[str] = []) -> List[dict]:
@@ -38,7 +38,7 @@ class Utils:
         if headers == []:
             headers = self.default_headers
 
-        print("Your headers:", headers.join(','))
+        print("\nYour headers are:", ', '.join(headers))
 
         stock_list_data = []  # stock list data to return
 
