@@ -2,6 +2,7 @@ from Scraper import Scraper
 from typing import List
 import pandas as pd
 import os
+import time
 
 
 class Utils:
@@ -30,7 +31,7 @@ class Utils:
         print('\n', stock_list_df)
         return stock_list_df
 
-    def handle_user_input(self, tokens: List[str], headers: List[str] = []) -> List[dict]:
+    def handle_user_input(self, tokens: List[str], headers: List[str] = [], wait_time: float = 0.25) -> List[dict]:
         """
         returns a list of dictionary containing information about each entered token
         """
@@ -57,6 +58,9 @@ class Utils:
                     temp_dict[header] = token_stats_dic['data'][header]
 
                 stock_list_data.append(temp_dict)
+
+                # wait time
+                time.sleep(wait_time)
             except:
                 pass
         return stock_list_data
