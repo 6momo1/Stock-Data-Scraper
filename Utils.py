@@ -43,15 +43,17 @@ class Utils:
         return stock_list_df
 
     def handle_user_input(self, tokens: List[str],
-                          headers: List[str] = [], wait_time: float = 0.25) -> List[dict]:
+                          headers: List[str] = [], timeout: float = 0.25) -> List[dict]:
         """
         returns a list of dictionary containing information about each entered token
         """
         # if user did not give headers, set headers to class default headers
-        if headers == []:
+        if headers == None:
             headers = self.default_headers
+        else:
+            headers = self.default_headers + headers
 
-        print("\nYour headers are:", ', '.join(headers))
+        print("\nYour requested headers are:", ', '.join(headers))
 
         stock_list_data = []  # stock list data to return
 
@@ -67,12 +69,18 @@ class Utils:
             try:
                 # save the data that the user want returned
                 for header in headers:
-                    temp_dict[header] = token_stats_dic['data'][header]
+
+                    # parse the use headers and aditional headers, raise error if header is entered incorrectly
+                    try:
+                        temp_dict[header] = token_stats_dic['data'][header]
+                    except Exception as e:
+                        print('\n', e)
+                        print(header, 'is incorrect, please enter a valid header. \n')
 
                 stock_list_data.append(temp_dict)
 
                 # wait time
-                time.sleep(wait_time)
+                time.sleep(timeout)
             except:
                 pass
         return stock_list_data

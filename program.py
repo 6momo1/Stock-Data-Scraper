@@ -9,11 +9,19 @@ from Utils import Utils
 from typing import List
 
 
-def process_arguments(stock_symbols: List[str], csv: bool, aditional_headers: List[str] = None) -> None:
+class Program:
+    def process_arguments(
+            self, stock_symbols: List[str], csv: bool, additional_headers: List[str] = None, timeout: float = 0.25) -> None:
 
-    stock_list_data = Utils().handle_user_input(stock_symbols)
-    stock_df = Utils().dict_to_df(stock_list_data)
-    if csv:
-        Utils().to_csv(stock_df, "file1")
+        # Scrape the data
+        stock_list_data = Utils().handle_user_input(
+            tokens=stock_symbols, headers=additional_headers, timeout=timeout)
 
-    sys.exit(1)
+        # Convert it to a Pandas DataFrame Object
+        stock_df = Utils().dict_to_df(stock_list_data)
+
+        # Create a csv file requested
+        if csv:
+            Utils().to_csv(stock_df, "stock_data.csv")
+
+        sys.exit(1)
