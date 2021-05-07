@@ -1,3 +1,8 @@
+"""
+
+This module contains the functions that scrape stock data from Finviz
+
+"""
 import time
 import requests
 from bs4 import BeautifulSoup

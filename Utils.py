@@ -1,3 +1,13 @@
+
+"""
+This module contains functions to process the data retreived from the scraper function.
+
+contains the functions:
+    to_csv: creates a csv file
+    dict_to_df: converts the dictionary object returned from Scraper function to pandas Datafram
+    handle_user_input: process the user input
+
+"""
 from Scraper import Scraper
 from typing import List
 import pandas as pd
@@ -10,10 +20,11 @@ class Utils:
     def __init__(self):
         self.default_headers = ['Idx', 'Market_Cap', 'Income', 'Price']
 
-    def to_csv(self, stock_list_df: pd.DataFrame, file_name: str) -> None:
+    def to_csv(self, stock_list_df: pd.DataFrame, file_name: str = "stock_data.csv") -> None:
         """
         create a csv File from stock list df
         Note: could add the argument for directory
+
         """
         # current working directory
         cwd = os.getcwd()
@@ -31,7 +42,8 @@ class Utils:
         print('\n', stock_list_df)
         return stock_list_df
 
-    def handle_user_input(self, tokens: List[str], headers: List[str] = [], wait_time: float = 0.25) -> List[dict]:
+    def handle_user_input(self, tokens: List[str],
+                          headers: List[str] = [], wait_time: float = 0.25) -> List[dict]:
         """
         returns a list of dictionary containing information about each entered token
         """
