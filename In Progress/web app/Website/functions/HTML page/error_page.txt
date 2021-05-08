@@ -1,0 +1,476 @@
+<html><head><script src="https://pagead2.googlesyndication.com/pagead/show_companion_ad.js?upapi=true"></script><script type="text/javascript" src="https://cdn.krxd.net/userdata/get?pub=9427dd0d-835c-471c-a5db-ab01ae8a681c&amp;callback=Krux.ns.investingchannelinc.kxjsonp_userdata"></script><script type="text/javascript" src="https://beacon.krxd.net/optout_check?callback=Krux.ns.investingchannelinc.kxjsonp_optOutCheck"></script><script id="IC_INTERSTITIAL_SCRIPT_7342bb4b-6ace-4e20-8f92-c58ab6bf94c2" src="https://dggaenaawxe8z.cloudfront.net/uat/webinterstitial/webinterstitialad.js" type="text/javascript" async=""></script><script type="text/javascript">
+ 	/*Set IC_INTERSTITIAL_AD_UNIT */
+ 	window.IC_INTERSTITIAL_AD_UNIT_SITE = "/5206/invc.finviz/";
+	window.IC_INTERSTITIAL_AD_UNIT_ZONE = "null";
+ 	window.IC_INTERSTITIAL_SINGLE_REQUEST = true;
+ 	/*Set IC_INTERSTITIAL_GEO */
+ 	window.IC_INTERSTITIAL_GEO = "CA";
+ 	/*Set IC_INTERSTITIAL_TARGETS */
+ 	window.IC_INTERSTITIAL_TARGETS = {};
+ 	window.IC_INTERSTITIAL_TARGETS["d"] = "d";
+ 	var kval = "null";
+ 	window.IC_INTERSTITIAL_TARGETS["kval"] = kval? kval.split(','): kval;
+ 	window.IC_INTERSTITIAL_TARGETS["ord"] = "7342bb4b-6ace-4e20-8f92-c58ab6bf94c2";
+ 	window.IC_INTERSTITIAL_TARGETS["pt"] = "";
+ 	window.IC_INTERSTITIAL_TARGETS["rft"] = "in"; 
+ 	window.IC_INTERSTITIAL_TARGETS["dnt"] = "false";
+ 	window.IC_INTERSTITIAL_TARGETS["tl"] = "null";
+ 	window.IC_INTERSTITIAL_TARGETS["usn"] = "finviz";
+ 	window.IC_INTERSTITIAL_TARGETS["viewcount"] = "1";
+ 	var isSearchEngine = window.IC_INTERSTITIAL_TARGETS["rft"] == "se"? true: false;
+ 	window.IC_INTERSTITIAL_TARGETS["is_search"] = isSearchEngine;
+ window.IC_INTERSTITIAL_TARGETS["adslot"] = "d_WebInterstitial";
+ 	var autokval = {};
+ 	if(autokval){
+ 		for(var key in autokval)
+ 			window.IC_INTERSTITIAL_TARGETS[key] = autokval[key];
+ 	}
+ 	var pixelSegment = null;
+ 	if(pixelSegment){
+ 		for(var key in pixelSegment)
+ 			window.IC_INTERSTITIAL_TARGETS[key] = pixelSegment[key];
+ 	}
+ 
+ 	var ic_web_scriptId = "IC_INTERSTITIAL_SCRIPT_7342bb4b-6ace-4e20-8f92-c58ab6bf94c2";
+ 	
+ 	if(!window.document.getElementById(ic_web_scriptId)){
+ 		var adTagName = "finviz".toLowerCase();
+ 		var nativeURL = "https://dggaenaawxe8z.cloudfront.net/uat/webinterstitial/webinterstitialad.js";
+ 
+ 		var scriptElement = document.createElement("script");
+ 		scriptElement.id = ic_web_scriptId;
+ 		scriptElement.src = nativeURL;
+ 		scriptElement.type = "text/javascript";
+ 		scriptElement.async = true;
+ 		var element = window.document.getElementsByTagName("script")[0];
+ 		if(element)
+ 			element.parentNode.insertBefore(scriptElement, element);
+ 	}
+ </script><script async="" src="https://sb.scorecardresearch.com/cs/7290380/beacon.js" id="IC_S_Comscore"></script><script>
+    const id = "IC_S_Comscore";
+    //Script to be added only to top windows and if not already dropped
+    if (window.top == window.self && document.getElementById(id) == null)
+    {
+      var _comscore = _comscore || [];
+      _comscore.push({ c1: "2", c2: "7290380" });
+      (function() {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+        s.src = "https://sb.scorecardresearch.com/cs/7290380/beacon.js";
+        s.setAttribute("id",id);
+        el.parentNode.insertBefore(s, el);
+      })();
+    }
+    </script><script>
+window.apd_options = { 'websiteId': 6898, 'runFromFrame': false };
+	(function() {
+		var w = window.apd_options.runFromFrame ? window.top : window;
+		if(window.apd_options.runFromFrame && w!=window.parent) w=window.parent;
+		if (w.location.hash.indexOf('apdAdmin') != -1){if(typeof(Storage) !== 'undefined') {w.localStorage.apdAdmin = 1;}}
+		var adminMode = ((typeof(Storage) == 'undefined') || (w.localStorage.apdAdmin == 1));
+		w.apd_options=window.apd_options;
+		var apd = w.document.createElement('script'); apd.type = 'text/javascript'; apd.async = true;
+		apd.src = '//' + (adminMode ? 'cdn' : 'ecdn') + '.firstimpression.io/' + (adminMode ? 'fi.js?id=' + window.apd_options.websiteId : 'fi_client.js') ;
+		var s = w.document.getElementsByTagName('head')[0]; s.appendChild(apd);
+	})();
+</script><script type="text/javascript" async="" src="//ml314.com/tag.aspx?612021"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-648272-15', 'auto', 'gaccm');
+
+    (function () {    
+        var docCookies = { getItem: function (e) { return e ? decodeURIComponent(document.cookie.replace(new RegExp("(?:(?:^|.*;)\\s*" + encodeURIComponent(e).replace(/[\-\.\+\*]/g, "\\$&") + "\\s*\\=\\s*([^;]*).*$)|^.*$"), "$1")) || null : null }, setItem: function (e, n, o, t, r, c) { if (!e || /^(?:expires|max\-age|path|domain|secure)$/i.test(e)) return !1; var a = ""; if (o) switch (o.constructor) { case Number: a = 1 / 0 === o ? "; expires=Fri, 31 Dec 9999 23:59:59 GMT" : "; max-age=" + o; break; case String: a = "; expires=" + o; break; case Date: a = "; expires=" + o.toUTCString() } return document.cookie = encodeURIComponent(e) + "=" + encodeURIComponent(n) + a + (r ? "; domain=" + r : "") + (t ? "; path=" + t : "") + (c ? "; secure" : ""), !0 } },
+        isEmpty = function (r) { for (var n in r) if (r.hasOwnProperty(n)) return !1; return !0 }; 
+
+        _ml = window._ml || {};
+        _ml.eid = '50114';
+        _ml.ef = ['#user_email', '#user_login', '#username', '*email'];
+        _ml.othersrmer = {
+        callback: function () { 
+            var frequencyCap = 7, cookieName = '_ccm_inf', gaSet = 'gaccm.set';
+            
+            if (typeof ga != 'undefined' && _ml.us && !isEmpty(_ml.us) && docCookies.getItem(cookieName) == null) {
+            _ml.us.tp && _ml.us.tp.length > 0 && ga(gaSet, 'dimension1', _ml.us.tp[0]);
+            _ml.us.ind && ga(gaSet, 'dimension2', _ml.us.ind);
+            _ml.us.cr && ga(gaSet, 'dimension3', _ml.us.cr);
+            _ml.us.cs && ga(gaSet, 'dimension4', _ml.us.cs);
+            _ml.us.dm && ga(gaSet, 'dimension5', _ml.us.dm);
+            _ml.us.pc && _ml.us.pc.length > 0 && ga(gaSet, 'dimension6', _ml.us.pc[0]);
+            _ml.us.sn && ga(gaSet, 'dimension7', _ml.us.sn);
+                            
+            docCookies.setItem(cookieName, '1', 86400 * frequencyCap);
+            ga('gaccm.send', { 'hitType': 'event', 'eventCategory': 'CCM', 'eventAction': 'Loaded Profile', 'nonInteraction': 1 });         
+            }
+        },
+        enable: true
+        };
+        var s = document.getElementsByTagName('script')[0], cd = new Date(), mltag = document.createElement('script');
+        mltag.type = 'text/javascript'; mltag.async = true;
+        mltag.src = '//ml314.com/tag.aspx?' + cd.getDate() + cd.getMonth() + cd.getFullYear();
+        s.parentNode.insertBefore(mltag, s);
+    })();
+ </script><script id="IC_Exelate_Pixel_Script_Kc01cpci7X2SA" src="https://loadus.exelator.com/load/?p=763&amp;g=20&amp;site_name=invc.finviz&amp;zone_name=economics_news&amp;j=d" type="text/javascript" async=""></script><script type="text/javascript">         var excelatScripteId = "IC_Exelate_Pixel_Script_Kc01cpci7X2SA";         if(!window.document.getElementById(excelatScripteId)){             var exelateSrc = (document.location.protocol == "https:" ? "https://" : "http://")+"loadus.exelator.com/load/?p=763&g=20&site_name=invc.finviz&zone_name=economics_news&j=d";             var scriptElement = document.createElement('script');             scriptElement.id = excelatScripteId;             scriptElement.src = exelateSrc;             scriptElement.type = 'text/javascript';             scriptElement.async = true;             var s = document.getElementsByTagName('script')[0];             s.parentNode.insertBefore(scriptElement, s);         }     </script><script src="https://secure.quantserve.com/quant.js" type="text/javascript" async=""></script><script type="text/javascript">         window._qevents = window._qevents || [];         var quantCastSrc = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";         var scriptElement = document.createElement('script');         scriptElement.src = quantCastSrc;         scriptElement.type = 'text/javascript';         scriptElement.async = true;         var s = document.getElementsByTagName('script')[0];         s.parentNode.insertBefore(scriptElement, s);         window._qevents.push({                                 qacct:"p-ed9LRhNGf2zt2", labels:"Site.FinViz.FinViz,Zone.economics_news"                             });     </script><style id="investingchannel_css_style">.ic_1x1_css_class{width: 1px;height: 1px;}</style>
+<title>Search</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+                         <meta name="viewport" content="width=1024"><meta name="description" content="Stock screener for investors and traders, financial visualizations.">
+<meta name="keywords" content="Stock Screener, Charts, Quotes, Maps, News, Financial Visualizations, Research, Trading Systems">
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="Expires" content="-1">
+
+            <link rel="preload" href="/fonts/lato-v17-latin-ext_latin-regular.woff2" as="font" crossorigin="">
+            <link rel="preload" href="/fonts/lato-v17-latin-ext_latin-700.woff2" as="font" crossorigin="">
+        <link rel="stylesheet" href="/css/finviz.css?rev=154" type="text/css">
+<link rel="icon" type="image/png" href="/favicon_2x.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon.png" sizes="16x16">
+<script type="text/javascript" src="https://consumer.krxd.net/consent/set/9427dd0d-835c-471c-a5db-ab01ae8a681c?idt=device&amp;dt=kxcookie&amp;dc=1&amp;al=1&amp;tg=1&amp;cd=1&amp;sh=1&amp;re=1&amp;callback=Krux.ns.investingchannelinc.kxjsonp_consent_set_1"></script><script type="text/javascript" src="https://consumer.krxd.net/consent/get/9427dd0d-835c-471c-a5db-ab01ae8a681c?idt=device&amp;dt=kxcookie&amp;callback=Krux.ns.investingchannelinc.kxjsonp_consent_get_0"></script><script async="" src="https://lovelydrum.com/v2ixetRMm-Xh4G8GvZU2MuOp69eFajEV81YST8SHx32IuLNeoouaDeUg"></script><script async="" src="//cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script id="IC_MarkitScript" src="https://ad.wsod.com/pub/37693cfc748049e45d87b8c7d8b9aacd/0.0.async/" type="text/javascript" async=""></script><script async="" src="//c.amazon-adsystem.com/aax2/apstag.js"></script><script id="IC_Admiral_Script_Id" src="https://dggaenaawxe8z.cloudfront.net/cmp_v2/admiral/finviz.js" type="text/javascript" async=""></script><script id="IC_Krux_Consent_Script" type="text/javascript">Krux('ns:investingchannelinc', 'consent:set', {                    dc: true,                    al: true,                    tg: true,                    cd: true,                    sh: true,                    re: true                }, function(errors, body) {                });</script><script id="IC_Krux_Id_Script" class="kxct" data-namespace="investingchannelinc" type="text/javascript">window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+            ic_krux_getuserid = function(){
+                function retrieve(n){
+                  var k= 'kx'+'investingchannelinc_'+n, ls=(function(){
+                    try {
+                      return window.localStorage;
+                    } catch(e) {
+                      return null;
+                    }
+                  })();
+                  if (ls) {
+                      return ls[k] || '';
+                  } else if (navigator.cookieEnabled) {
+                      var m = document.cookie.match(k+'=([^;]*)');
+                      return (m && unescape(m[1])) || '';
+                  } else {
+                      return '';
+                  }
+                }                
+                Krux.user = retrieve('user');
+                Krux.segments = retrieve('segs') ? retrieve('segs').split(',') : [];
+              };
+              ic_krux_getuserid();</script><script type="text/javascript" async="" src="https://cdn.krxd.net/controltag/txe9jbx58.js"></script><script id="IC_Krux_Script" class="kxct" data-id="txe9jbx58" data-timing="async" data-version="3.0" type="text/javascript">window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+            (function(){
+            var k=document.createElement('script');k.type='text/javascript';k.async=true;
+            k.src=(location.protocol==='https:'?'https:':'http:')+'//cdn.krxd.net/controltag/txe9jbx58.js';
+            var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+            }());</script><script async="" type="text/javascript" src="https://loadus.exelator.com/load/?p=763&amp;g=104&amp;j=c&amp;callback=ic_exelate_callback"></script><script async="" type="text/javascript" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script><script src="https://rules.quantcount.com/rules-p-c2W8esUZ6Q8oA.js" async=""></script><script src="https://rules.quantcount.com/rules-p-ed9LRhNGf2zt2.js" async=""></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">FinvizSettings = {hasUserPremium: false, name: "", chartsDomain: "https://charts2.finviz.com"};</script><script src="/script/boxover.js?rev=267" type="text/javascript"></script>
+<script type="text/javascript" src="/js/libs/shims.min.js?rev=267"></script><script type="text/javascript" src="/js/libs/d3-json.js"></script>
+            <script type="text/javascript" src="/js/dist/runtime.bundle.js?rev=267"></script>
+            <script type="text/javascript" src="/js/dist/vendors.bundle.js?rev=267"></script>
+            <script type="text/javascript" src="/js/dist/header.bundle.js?rev=267"></script><style>.tippy-box[data-animation=fade][data-state=hidden]{opacity:0}[data-tippy-root]{max-width:calc(100vw - 10px)}.tippy-box{position:relative;background-color:#333;color:#fff;border-radius:4px;font-size:14px;line-height:1.4;outline:0;transition-property:transform,visibility,opacity}.tippy-box[data-placement^=top]>.tippy-arrow{bottom:0}.tippy-box[data-placement^=top]>.tippy-arrow:before{bottom:-7px;left:0;border-width:8px 8px 0;border-top-color:initial;transform-origin:center top}.tippy-box[data-placement^=bottom]>.tippy-arrow{top:0}.tippy-box[data-placement^=bottom]>.tippy-arrow:before{top:-7px;left:0;border-width:0 8px 8px;border-bottom-color:initial;transform-origin:center bottom}.tippy-box[data-placement^=left]>.tippy-arrow{right:0}.tippy-box[data-placement^=left]>.tippy-arrow:before{border-width:8px 0 8px 8px;border-left-color:initial;right:-7px;transform-origin:center left}.tippy-box[data-placement^=right]>.tippy-arrow{left:0}.tippy-box[data-placement^=right]>.tippy-arrow:before{left:-7px;border-width:8px 8px 8px 0;border-right-color:initial;transform-origin:center right}.tippy-box[data-inertia][data-state=visible]{transition-timing-function:cubic-bezier(.54,1.5,.38,1.11)}.tippy-arrow{width:16px;height:16px;color:#333}.tippy-arrow:before{content:"";position:absolute;border-color:transparent;border-style:solid}.tippy-content{position:relative;padding:5px 9px;z-index:1}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL25vZGVfbW9kdWxlcy90aXBweS5qcy9kaXN0L3RpcHB5LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxtREFBbUQsU0FBUyxDQUFDLGtCQUFrQiw0QkFBNEIsQ0FBQyxXQUFXLGlCQUFpQixDQUFDLHFCQUFxQixDQUFDLFVBQVUsQ0FBQyxpQkFBaUIsQ0FBQyxjQUFjLENBQUMsZUFBZSxDQUFDLFNBQVMsQ0FBQyxnREFBZ0QsQ0FBQyw2Q0FBNkMsUUFBUSxDQUFDLG9EQUFvRCxXQUFXLENBQUMsTUFBTSxDQUFDLHNCQUFzQixDQUFDLHdCQUF3QixDQUFDLDJCQUEyQixDQUFDLGdEQUFnRCxLQUFLLENBQUMsdURBQXVELFFBQVEsQ0FBQyxNQUFNLENBQUMsc0JBQXNCLENBQUMsMkJBQTJCLENBQUMsOEJBQThCLENBQUMsOENBQThDLE9BQU8sQ0FBQyxxREFBcUQsMEJBQTBCLENBQUMseUJBQXlCLENBQUMsVUFBVSxDQUFDLDRCQUE0QixDQUFDLCtDQUErQyxNQUFNLENBQUMsc0RBQXNELFNBQVMsQ0FBQywwQkFBMEIsQ0FBQywwQkFBMEIsQ0FBQyw2QkFBNkIsQ0FBQyw2Q0FBNkMseURBQXlELENBQUMsYUFBYSxVQUFVLENBQUMsV0FBVyxDQUFDLFVBQVUsQ0FBQyxvQkFBb0IsVUFBVSxDQUFDLGlCQUFpQixDQUFDLHdCQUF3QixDQUFDLGtCQUFrQixDQUFDLGVBQWUsaUJBQWlCLENBQUMsZUFBZSxDQUFDLFNBQVMiLCJzb3VyY2VzQ29udGVudCI6WyIudGlwcHktYm94W2RhdGEtYW5pbWF0aW9uPWZhZGVdW2RhdGEtc3RhdGU9aGlkZGVuXXtvcGFjaXR5OjB9W2RhdGEtdGlwcHktcm9vdF17bWF4LXdpZHRoOmNhbGMoMTAwdncgLSAxMHB4KX0udGlwcHktYm94e3Bvc2l0aW9uOnJlbGF0aXZlO2JhY2tncm91bmQtY29sb3I6IzMzMztjb2xvcjojZmZmO2JvcmRlci1yYWRpdXM6NHB4O2ZvbnQtc2l6ZToxNHB4O2xpbmUtaGVpZ2h0OjEuNDtvdXRsaW5lOjA7dHJhbnNpdGlvbi1wcm9wZXJ0eTp0cmFuc2Zvcm0sdmlzaWJpbGl0eSxvcGFjaXR5fS50aXBweS1ib3hbZGF0YS1wbGFjZW1lbnRePXRvcF0+LnRpcHB5LWFycm93e2JvdHRvbTowfS50aXBweS1ib3hbZGF0YS1wbGFjZW1lbnRePXRvcF0+LnRpcHB5LWFycm93OmJlZm9yZXtib3R0b206LTdweDtsZWZ0OjA7Ym9yZGVyLXdpZHRoOjhweCA4cHggMDtib3JkZXItdG9wLWNvbG9yOmluaXRpYWw7dHJhbnNmb3JtLW9yaWdpbjpjZW50ZXIgdG9wfS50aXBweS1ib3hbZGF0YS1wbGFjZW1lbnRePWJvdHRvbV0+LnRpcHB5LWFycm93e3RvcDowfS50aXBweS1ib3hbZGF0YS1wbGFjZW1lbnRePWJvdHRvbV0+LnRpcHB5LWFycm93OmJlZm9yZXt0b3A6LTdweDtsZWZ0OjA7Ym9yZGVyLXdpZHRoOjAgOHB4IDhweDtib3JkZXItYm90dG9tLWNvbG9yOmluaXRpYWw7dHJhbnNmb3JtLW9yaWdpbjpjZW50ZXIgYm90dG9tfS50aXBweS1ib3hbZGF0YS1wbGFjZW1lbnRePWxlZnRdPi50aXBweS1hcnJvd3tyaWdodDowfS50aXBweS1ib3hbZGF0YS1wbGFjZW1lbnRePWxlZnRdPi50aXBweS1hcnJvdzpiZWZvcmV7Ym9yZGVyLXdpZHRoOjhweCAwIDhweCA4cHg7Ym9yZGVyLWxlZnQtY29sb3I6aW5pdGlhbDtyaWdodDotN3B4O3RyYW5zZm9ybS1vcmlnaW46Y2VudGVyIGxlZnR9LnRpcHB5LWJveFtkYXRhLXBsYWNlbWVudF49cmlnaHRdPi50aXBweS1hcnJvd3tsZWZ0OjB9LnRpcHB5LWJveFtkYXRhLXBsYWNlbWVudF49cmlnaHRdPi50aXBweS1hcnJvdzpiZWZvcmV7bGVmdDotN3B4O2JvcmRlci13aWR0aDo4cHggOHB4IDhweCAwO2JvcmRlci1yaWdodC1jb2xvcjppbml0aWFsO3RyYW5zZm9ybS1vcmlnaW46Y2VudGVyIHJpZ2h0fS50aXBweS1ib3hbZGF0YS1pbmVydGlhXVtkYXRhLXN0YXRlPXZpc2libGVde3RyYW5zaXRpb24tdGltaW5nLWZ1bmN0aW9uOmN1YmljLWJlemllciguNTQsMS41LC4zOCwxLjExKX0udGlwcHktYXJyb3d7d2lkdGg6MTZweDtoZWlnaHQ6MTZweDtjb2xvcjojMzMzfS50aXBweS1hcnJvdzpiZWZvcmV7Y29udGVudDpcIlwiO3Bvc2l0aW9uOmFic29sdXRlO2JvcmRlci1jb2xvcjp0cmFuc3BhcmVudDtib3JkZXItc3R5bGU6c29saWR9LnRpcHB5LWNvbnRlbnR7cG9zaXRpb246cmVsYXRpdmU7cGFkZGluZzo1cHggOXB4O3otaW5kZXg6MX0iXSwic291cmNlUm9vdCI6IiJ9 */</style>
+        
+            <script src="/js/dfp.min.js"></script>
+            <script>
+                if(window['FinvizLoadIC']) {
+                    var s = document.createElement('script');
+                    s.type = 'text/javascript';
+                    s.async = true;
+                    s.src = 'https://u5.investingchannel.com/static/uat.js';
+                    document.head.appendChild(s);
+
+                    InvestingChannelQueue = window.InvestingChannelQueue || [];
+                    var ic_page;
+                    InvestingChannelQueue.push(function() {
+                        ic_page = InvestingChannel.UAT.Run('df0d0d52-cc7f-11e8-82a5-0abbb61c4a6a');
+                    });
+                } else {
+            (function() {
+                function ready(fn) {if (document.readyState != 'loading'){fn();}else{document.addEventListener('DOMContentLoaded', fn);} }
+                ready(function() {
+                    var banners = ['2', '4', '5', '6', '7'];
+                    var banner = banners[Math.floor(Math.random() * banners.length)];
+
+                    if (banner === '3') {
+                        document.getElementById('banner_position').innerHTML = '<iframe src="/img/a/' + banner + '/index.html?rev=2" frameBorder="0" width="728" height="90"></iframe>';
+                    } else {
+                        document.getElementById('banner_position').innerHTML = '<a href="/elite.ashx?utm_source=finviz&utm_medium=banner&utm_campaign=' + banner + '"><img src="/img/a/' + banner + '.jpg"></a>';
+                    }
+                    gtag && gtag('event', 'impression', { event_category: 'banner', event_label: banner, non_interaction: true });
+                })
+            })();
+        
+                }
+            </script><script type="text/javascript" async="" src="https://u5.investingchannel.com/static/uat.js"></script><script id="IC_A9Script">!function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");</script><style>#ic_adhesion{ border: 1px solid lightgrey; min-height: 50px; position: fixed; min-width: 300px; margin: auto; left: 0; right: 0; bottom: 5px; margin: 10px; background: #fff; display: none; z-index: 9999999; width: fit-content; margin: auto;}#ic_adhesion .adhesion_collapse{ width: 13px; text-align: right; padding: 0px 2px 1px 1px; cursor: pointer; color: #fff; background: dimgrey; font-weight: bolder; font-size: 11px; height: 16px; float: right; margin: 1px 1px; }#ic_adhesion .adhesion_placement{ min-width: 300px; min-height: 50px; text-align:center; overflow: auto; margin: 12px 12px 0px 12px; padding: 1px;}</style><style>div[id*='investingchannel_div']{margin:auto; text-align: center} #microbar_position div[id*='investingchannel_div']{text-align: left} </style><meta http-equiv="origin-trial" content="A9ZgbRtm4pU3oZiuNzOsKcC8ppFSZdcjP2qYcdQrFKVzkmiWH1kdYY1Mi9x7G8+PS8HV9Ha9Cz0gaMdKsiVZIgMAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A3HucHUo1oW9s+9kIKz8mLkbcmdaj5lxt3eiIMp1Nh49dkkBlg1Fhg4Fd/r0vL69mRRA36YutI9P/lJUfL8csQoAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021020301.js?31060029" async=""></script><script type="text/javascript" async="" src="//ecdn.firstimpression.io/fi_client.js"></script><link rel="preload" href="https://adservice.google.ca/adsid/integrator.js?domain=finviz.com" as="script"><script type="text/javascript" src="https://adservice.google.ca/adsid/integrator.js?domain=finviz.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=finviz.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=finviz.com"></script><link rel="prefetch" href="https://73aac484030e58d4360edf1bf876b706.safeframe.googlesyndication.com/safeframe/1-0-37/html/container.html"><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-37/html/container.html"><script type="text/javascript" src="https://mrb.upapi.net/org?o=5685658009993216&amp;upapi=true"></script><script type="text/javascript" async="" src="https://btloader.com/recovery?w=5643109423644672&amp;upapi=true"></script><style>.upo-label{display:none !important}</style></head>
+<body class="" style="margin:0" bgcolor="#ffffff"><div id="unsupported-browser">Your browser is no longer supported. Please, <a href="https://browser-update.org/update.html" target="_blank">upgrade your browser.</a></div>
+                <table class="header" width="100%" cellpadding="0" cellspacing="0" border="0" style="min-width: 1000px">
+                    <tbody><tr valign="top">
+                        <td>
+                            <script type="text/javascript">if(document.body.clientWidth>1500){document.write('<table align="center" width="1425px" cellpadding="0" cellspacing="0" border="0" style="table-layout: fixed; min-width: 1000px">')}else{document.write('<table align="center" width="95%" style="max-width: 1425px; min-width: 1000px; table-layout: fixed" cellpadding="0" cellspacing="0" border="0">')}</script><table align="center" width="95%" style="max-width: 1425px; min-width: 1000px; table-layout: fixed" cellpadding="0" cellspacing="0" border="0">
+                                <tbody><tr>
+                                    <td width="30%">
+                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                            <tbody><tr>
+                                                <td height="50" valign="middle">
+                                                    <a href="/" class="logo"></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="search" id="search" style="padding-top: 4px"><div><form><input placeholder="Search ticker, company or profile" type="text" class="" value=""><span class="fa fa-search"></span></form><table class="suggestions-box" cellpadding="0" cellspacing="0" border="0" style="display: none;"><tbody></tbody></table></div></td>
+                                            </tr>
+                                        </tbody></table>
+                                    </td>
+                                    <td valign="bottom" style="padding-bottom: 4px">
+                                        <div id="microbar_position" style="height: 31px"><div id="investingchannel_div_6709456692068014" ic_pageid="7342bb4b-6ace-4e20-8f92-c58ab6bf94c2" ic_placementid="1330" ic_tagid="1330" style=""><div id="google_ads_iframe_/5206/invc.finviz/qtsearch_0__container__" style="border: 0pt none; width: 88px; height: 31px;"></div></div></div>
+                                    </td>
+                                    <td width="728" align="right" style="position:relative;"><div id="banner_position" style="position:absolute;right:0;top:0;overflow:hidden;height:96px"><div id="investingchannel_div_8054243969120614" ic_pageid="7342bb4b-6ace-4e20-8f92-c58ab6bf94c2" ic_placementid="1329" ic_tagid="1329" style=""><div id="google_ads_iframe_/5206/invc.finviz/economics_news_1__container__" style="border: 0pt none; width: 728px; height: 90px;"></div></div><div id="investingchannel_div_3149789555211648" ic_pageid="7342bb4b-6ace-4e20-8f92-c58ab6bf94c2" ic_placementid="1328" ic_tagid="1328" class="ic_1x1_css_class" style=""><div id="google_ads_iframe_/5206/invc.finviz/economics_news_0__container__" style="border: 0pt none; width: 1px; height: 1px;"></div></div></div></td>
+                                </tr>
+                            </tbody></table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="1000" style="font-size:0">
+                            <img src="/gfx/nic2x2.gif" width="1000" height="1" border="0">
+                        </td>
+                    </tr>
+                </tbody></table>
+            <table class="navbar" width="100%" height="30" cellpadding="0" cellspacing="0" border="0">
+                <tbody><tr>
+                    <td height="30">
+                        <script type="text/javascript">if(document.body.clientWidth>1500){document.write('<table align="center" width="1425px" cellpadding="0" cellspacing="0" border="0" style="white-space: nowrap; min-width: 1000px">')}else{document.write('<table align="center" width="95%" style="max-width:1425px;white-space: nowrap;min-width: 1000px" cellpadding="0" cellspacing="0" border="0">')}</script><table align="center" width="95%" style="max-width:1425px;white-space: nowrap;min-width: 1000px" cellpadding="0" cellspacing="0" border="0">
+                            <tbody><tr height="30"><td><a class="nav-link  is-first" href="/">Home</a></td><td><a class="nav-link " href="/news.ashx">News</a></td><td><a class="nav-link " href="/screener.ashx">Screener</a></td><td><a class="nav-link " href="/map.ashx">Maps</a></td><td><a class="nav-link " href="/groups.ashx">Groups</a></td><td><a class="nav-link " href="/portfolio.ashx">Portfolio</a></td><td><a class="nav-link " href="/insidertrading.ashx">Insider</a></td><td><a class="nav-link " href="/futures.ashx">Futures</a></td><td><a class="nav-link " href="/forex.ashx">Forex</a></td><td><a class="nav-link " href="/crypto.ashx">Crypto</a></td><td><a class="nav-link " href="/backtests.ashx">Backtests</a></td><td><a class="nav-link  is-elite" href="/elite.ashx">Elite</a></td><td style="width: 100%"></td>
+                                <td class="time" id="time"><span>Sun FEB 07 2021 3:01 AM EST</span></td>
+                <td>
+                    <a href="/help/screener.ashx" class="nav-link is-help">
+                        <span class="fa fa-question-circle"></span>
+                        Help
+                    </a>
+                </td>
+                <td><a href="/login.ashx" class="nav-link sign-in">Login</a></td>
+                <td><a href="/register.ashx" class="nav-link sign-up">Register</a></td>
+            
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+        <div class="content "><div class="container"><h4>No results found for "ASDF".</h4></div></div>
+            <div class="footer" style="margin-top: 50px">
+                <div class="footer_links">
+                    <a class="tab-link" href="/affiliate.ashx">affiliate</a>
+                    <span class="footer_dot"> • </span>
+                    <a class="tab-link" href="/advertise.ashx">advertise</a>
+                    <span class="footer_dot"> • </span>
+                    <a class="tab-link" href="/contact.ashx">contact</a>
+                    <span class="footer_dot"> • </span>
+                    <a class="tab-link" href="/privacy.ashx">privacy</a>
+                    <span class="footer_dot"> • </span>
+                    <a class="tab-link" href="/help/screener.ashx">help</a><br><a class="tab-link" href="/do_not_sell.ashx">Do not sell my personal information</a>
+                </div>
+                <span class="copyright">Quotes delayed 15 minutes for NASDAQ, and 20 minutes for NYSE and AMEX.</span>
+                <br>
+                Copyright © 2007-2021 FINVIZ.com. All Rights Reserved.
+            </div><script type="text/javascript">SearchFocus();</script>
+            <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-3261808-1"></script>
+            <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('set', {'dimension1': 'NotLoggedIn'});
+              gtag('set', {'dimension3': window.devicePixelRatio || 'unknown'});
+              
+              gtag('config', 'UA-3261808-1', { sample_rate: 10, send_page_view: false });
+              
+
+              gtag('event', 'page_view', { page_location: location.href, page_path: location.pathname, page_title: document.title });
+            </script>
+        <script type="text/javascript">
+_qoptions={qacct:"p-c2W8esUZ6Q8oA"};
+</script>
+<script type="text/javascript" src="https://secure.quantserve.com/quant.js"></script>
+<noscript>
+<img src="https://pixel.quantserve.com/pixel/p-c2W8esUZ6Q8oA.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<div id="modal-elite-ad" class="modal-elite-ad">
+                            <div id="modal-elite-ad_content" class="modal-elite-ad_content">
+			                    <button id="modal-elite-ad-close" type="button" class="modal-elite-ad_close">×</button>
+                                
+                                <!--<div id="modal-elite-ad-content-0" style="display: none">
+			                        <h2>Ever heard of Finviz*Elite?</h2>
+                                    <p>
+                                        Our premium service offers you real-time quotes, advanced visualizations, technical studies, and much more.<br>
+                                        Become Elite and make informed financial decisions.
+                                    </p>
+                                    <a href="/elite.ashx?utm_source=finviz&utm_medium=banner&utm_campaign=modal-0" id="modal-elite-ad-btn-0" class="" target="_blank">Find out more</a>
+                                </div>-->
+
+                                <div id="modal-elite-ad-content-1" style="display: block">
+			                        <h2>Upgrade your FINVIZ experience</h2>
+                                    <p>
+                                        Join thousands of traders who make more informed decisions with&nbsp;our&nbsp;premium features.
+                                        Real-time quotes, advanced&nbsp;visualizations, backtesting, and much more.
+                                    </p>
+                                    <a href="/elite.ashx?utm_source=finviz&amp;utm_medium=banner&amp;utm_campaign=modal-1" id="modal-elite-ad-btn-1" class="modal-elite_button" target="_blank">Learn more about FINVIZ*Elite</a>
+                                </div>
+                            </div>
+                         </div><script src="/js/pv.js?rev=267" async=""></script><script src="/script/libs/bowser.min.js?rev=267" type="text/javascript"></script>
+
+<div style="position: absolute; visibility: hidden; z-index: 11;"><div></div><div></div></div><iframe src="javascript:false;" frameborder="0" scrolling="no" style="visibility: hidden; opacity: 0; left: 0px; top: 0px; width: 0px; height: 0px; position: absolute; z-index: 10;"></iframe><iframe id="IC_USER_COOKIE_Iframe" src="https://uat5.investingchannel.com/start.html" style="display: none;"></iframe><div id="ic_adhesion"><div class="adhesion_collapse" onclick="ic_uat5_adhesion_collapse()">✕</div><div class="adhesion_placement"></div></div><iframe name="__tcfapiLocator" style="display: none;"></iframe><div class="kxhead" data-id="txe9jbx58" style="display:none !important;"><span class="kxtag kxinvisible" data-id="39860"><script>
+(function(){
+	Krux('scrape',{'page_attr_url_path_1':{'url_path':'1'}});
+	Krux('scrape',{'page_attr_url_path_2':{'url_path':'2'}});
+	Krux('scrape',{'page_attr_url_path_3':{'url_path':'3'}});
+	Krux('scrape',{'page_attr_meta_keywords':{meta_name:'keywords'}});
+
+	Krux('scrape',{'page_attr_domain':{url_domain: '4'}});
+
+})();
+</script></span><span class="kxtag kxinvisible" data-id="40009"><script>
+(function() {
+    /* Selective Attribute DataLayer Library Tag */
+    var _, allAttr, allowedList, attr, attributes, dataLayerIngester, dataObj,
+        isAllowed, keepCase, libUtil, omitKeys, pageAttr, prefix, toSet, trim,
+        userAttr, util, value,
+        hasProp = {}.hasOwnProperty;
+    _ = Krux('require:underscore');
+    util = Krux('require:util');
+    libUtil = Krux('require:util.library-tag');
+    dataLayerIngester = Krux('require:scrape').ingestDataLayer;
+
+    /* Safe copy of dataLayer object */
+    dataObj = Krux('scrape.javascript', 'ic_krux_controltag');
+
+    /* String trimming helper function */
+    trim = function(attr) {
+        return ("" + attr).replace(/^\s+|\s+$/g, '');
+    };
+
+    /* Attribute configs */
+    pageAttr = _.map('MCCS_Key,MKTVolatile,QSearchC,rft,t,usn,viewcount,zone,ActiveTrader_IsUserLoggedIn,ActiveTrader_watchlistData.ticker,ActiveTrader_AlertData.ticker,ActiveTrader_ScreenerFilterType,country,sector,tickers,ActiveTrader_PortfolioData.action,ActiveTrader_PortfolioData.quantity,ActiveTrader_PortfolioData.ticker,filterName,filterPerformance,sector,ticker,ActiveTrader_PortfolioData.volume,ActiveTrader_PortfolioData.transaction,ActiveTrader_HowTheMarketWorksRegisterData.dob,ActiveTrader_HowTheMarketWorksRegisterData.ownsAcc'.split(','), trim);
+    userAttr = _.map('undefined'.split(','), trim);
+
+    /* Create a array of attributes striping any empty strings */
+    allAttr = _.without(pageAttr.concat(userAttr), '');
+
+    /* Configuration settings */
+    keepCase = 'true' === 'true';
+    omitKeys = 'undefined'.split(',');
+
+    /* Resolve Prefix */
+    prefix = libUtil.resolvePrefix('none', 'undefined',
+        'undefined');
+
+    /* Function to varify if attribute should be used */
+    isAllowed = function(value, whitelist) {
+        var i, len, str, x;
+        str = "" + value;
+        if (!((value != null) && str.length > 0)) {
+            return false;
+        }
+        for (i = 0, len = whitelist.length; i < len; i++) {
+            x = whitelist[i];
+            if (value.match(x) != null) {
+                return true;
+            }
+        }
+        return false;
+    };
+
+    /* Get a full list of attributes usting the dataLayer tool */
+    attributes = dataLayerIngester(dataObj, {
+        omitKeys: libUtil.removeFalsyStrings(omitKeys.concat(libUtil.EXCLUDE_KEYS_CONFIG)),
+        omitValues: libUtil.EXCLUDE_VALUES_CONFIG,
+        caseSensitive: keepCase,
+        useFullPath: 'true' === 'true',
+        useLastValue: 'false' === 'true',
+        customDelimited: [/./],
+        altDelimiter: ',',
+        userKeys: _.map(userAttr, function(exp) {
+            return new RegExp("(^|\\.)" + exp + "$");
+        }),
+        optimizeNames: true
+    });
+
+    /* Only set Attributes in the allowed list */
+    allowedList = _.map(allAttr, function(name) {
+        return new RegExp("(_attr_|_attr_" + prefix + "|\\.)" + (keepCase ?
+            name : libUtil.normalizeAttrName(name, {
+                removeDot: false
+            })) + "$");
+    });
+    toSet = {};
+    for (attr in attributes) {
+        if (!hasProp.call(attributes, attr)) continue;
+        value = attributes[attr];
+        if (isAllowed(attr, allowedList)) {
+            toSet[attr] = value;
+        }
+    }
+    toSet = Krux('prefix:attr', toSet, prefix);
+    Krux('set', toSet);
+}).call();
+</script></span><span class="kxtag kxinvisible" data-id="40566"><script>
+(function() {
+    /* Generic Scrape Tag - Configurable Data Collection */
+    var _, filterValues, libUtil, prefix, scrapeConfig, toSet;
+    _ = Krux('require:underscore');
+    libUtil = Krux('require:util.library-tag');
+    toSet = {};
+    filterValues = function(val) {
+        var i, item, len, ref, str, x;
+        if (_.isArray(val)) {
+            return _.compact((function() {
+                var i, len, results;
+                results = [];
+                for (i = 0, len = val.length; i < len; i++) {
+                    item = val[i];
+                    results.push(filterValues(item));
+                }
+                return results;
+            })());
+        }
+        str = "" + val;
+        if (!((val != null) && str.length > 0)) {
+            return;
+        }
+        ref = libUtil.EXCLUDE_VALUES_CONFIG;
+        for (i = 0, len = ref.length; i < len; i++) {
+            x = ref[i];
+            if (str.match(x) != null) {
+                return;
+            }
+        }
+        return val;
+    };
+    scrapeConfig = function(config, type) {
+        var attr, i, len, parts, ref, results, value;
+        ref = libUtil.removeFalsyStrings(config);
+        results = [];
+        for (i = 0, len = ref.length; i < len; i++) {
+            attr = ref[i];
+            parts = attr.split('|');
+            if (parts.length === 1 && 'javascript'.match(/(dom|javascript)/)) {
+                continue;
+            }
+            if (parts.length === 1) {
+                parts.unshift(libUtil.normalizeAttrName(parts[0]));
+            }
+            switch ('javascript') {
+                case 'get':
+                    value = filterValues(Krux('get', parts[1]));
+                    break;
+                default:
+                    value = filterValues(Krux('scrape.javascript', parts[1]));
+            }
+            if (value) {
+                results.push(toSet[type + "_attr_" + parts[0]] = value);
+            } else {
+                results.push(void 0);
+            }
+        }
+        return results;
+    };
+    scrapeConfig('undefined', 'page');
+    scrapeConfig('uid|localStorage.kxinvestingchannelinc_user', 'user');
+    prefix = libUtil.resolvePrefix('none', 'undefined',
+        'undefined');
+    toSet = Krux('prefix:attr', toSet, prefix);
+    Krux('set', toSet);
+}).call();
+</script></span></div><img src="https://load77.exelator.com/pixel.gif" width="0" height="0" style="display: none;"><img src="https://ad.doubleclick.net/favicon.ico?ad=300x250&amp;ad_box_=1&amp;adnet=1&amp;showad=1&amp;size=250x250" style="display: none !important;"><img src="https://widgets.outbrain.com/images/widgetIcons/achoice.svg" style="display: none;"><iframe id="fi-tracking-sw" src="https://ecdn.firstimpression.io/static/sw/tracking-sw-index.html" name="&amp;website=6898" style="width:0px;height:0px;display:none;" frameborder="0" scrolling="0"></iframe><img src="https://ad.doubleclick.net/favicon.ico?ad=300x250&amp;ad_box_=1&amp;adnet=1&amp;showad=1&amp;size=250x250" style="display: none !important;"><img src="https://ad-delivery.net/px.gif?ch=1&amp;e=0.3334894824428738" style="display: none !important;"><iframe src="about:blank?upapi=true" style="width: 0px; height: 0px; display: none;"></iframe></body><iframe id="kx-proxy-txe9jbx58" frameborder="0" width="0" height="0" tabindex="-1" title="empty" aria-hidden="true" src="https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=txe9jbx58&amp;kxt=https%3A%2F%2Ffinviz.com&amp;kxcl=cdn&amp;kxp=" style="display: none; visibility: hidden; height: 0; width: 0;"></iframe><iframe sandbox="allow-scripts allow-same-origin" id="32edf87ef24dc1e" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://eus.rubiconproject.com/usync.html?us_privacy=1---">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="3321b32e129bdbe" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://acdn.adnxs.com/dmp/async_usersync.html">
+    </iframe><iframe sandbox="allow-scripts allow-same-origin" id="346c2fed40c9b71" frameborder="0" allowtransparency="true" marginheight="0" marginwidth="0" width="0" hspace="0" vspace="0" height="0" style="height:0px;width:0px;display:none;" scrolling="no" src="https://eb2.3lift.com/sync?us_privacy=1---&amp;upapi=true">
+    </iframe></html>

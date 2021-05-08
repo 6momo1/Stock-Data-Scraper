@@ -169,3 +169,7 @@ Your requested headers are: Idx, Market_Cap, Income, Price, PE, Volume, Profit_M
 1  GOOGL      S&P 500   1614.48B  51.36B  2351.93   30.38   1,444,167        26.10%         -
 2   TSLA      S&P 500    645.38B   1.11B   672.37  677.79  23,236,272         3.10%         -
 ```
+
+more features to implement:
+retrieve stock chart data
+retrieve stock news data
