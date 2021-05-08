@@ -22,6 +22,6 @@ class Program:
 
         # Create a csv file requested
         if csv:
-            Utils().to_csv(stock_df, "stock_data.csv")
+            Utils().to_csv(stock_df, "stock_data")
 
         sys.exit(1)
