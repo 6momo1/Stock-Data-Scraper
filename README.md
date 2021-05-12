@@ -4,6 +4,8 @@ A Command Line too to scrape stock fundamental data from finiviz.
 
 ## Usage
 
+cd into scrapeStocks directory and run ```python3 scrapeStocks --help```
+
 ```console
 $python3 scrapeStocks --help
 
