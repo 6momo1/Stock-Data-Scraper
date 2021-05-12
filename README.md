@@ -100,7 +100,8 @@ Add additonal information to your dataset:
 these additional headers can be selected from `--headers` option.
 
 ###### For example, if you want aditional information such as the PE ration of a stock, Profit Margin, or wether or not a stock
-###### has dividends, you can add them as parameters. 
+
+###### has dividends, you can add them as parameters.
 
 ```console
 $ python3 scrapeStocks.py aapl googl tsla --headers PE Volume Profit_Margin Dividend_
