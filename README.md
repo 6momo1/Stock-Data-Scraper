@@ -6,6 +6,7 @@ A Command Line too to scrape stock fundamental data from finiviz.
 
 cd into scrapeStocks directory and run ```python3 scrapeStocks --help```
 
+### Help
 ```console
 $python3 scrapeStocks --help
 
@@ -39,12 +40,12 @@ optional arguments:
 
 ### Get Data:
 
-To get data from a single stock:
+To get data for a single stock:
 
-###### For example, get data for the stock Apple:
+###### Ex: get data for the stock Apple:
 
 ```console
-$ python3 scrapeStock aapl
+$ python3 scrapeStock.py aapl
 
 Your requested headers are: Idx, Market_Cap, Income, Price
 
@@ -56,7 +57,7 @@ Your requested headers are: Idx, Market_Cap, Income, Price
 To get data for multiple stocks:
 
 ```console
-$ python3 scrapeStocks aapl googl tsla
+$ python3 scrapeStocks.py aapl googl tsla
 
 
 Your requested headers are: Idx, Market_Cap, Income, Price
@@ -70,7 +71,7 @@ Your requested headers are: Idx, Market_Cap, Income, Price
 
 ### Save as CSV
 
-Save the data as a CSV file:
+Save the data as a CSV file with the `--csv` flag to your current working directory:
 
 ```console
 $ python3 scrapeStocks.py aapl googl tsla --csv
@@ -89,21 +90,19 @@ Your requested headers are: Idx, Market_Cap, Income, Price
 ### Set Timout
 
 Set wait time between scraping each stock.
-Faster time may lead to higher chances of getting errors.
+A shorter time may lead to higher chances of getting detected by bot detection.
 
 ```console
-$ python3 scrapeStocks.py aapl --timeout 0.5
+$ python3 scrapeStocks.py aapl amzn --timeout 0.5
 ```
 
-### Additional Stock Data Output
+### Additional Data Output
 
 Add additonal information to your dataset:
 
-these additional headers can be selected from `--headers` option.
+Additional headers can be selected from `--headers` flag.
 
-###### For example, if you want aditional information such as the PE ration of a stock, Profit Margin, or wether or not a stock
-
-###### has dividends, you can add them as parameters.
+###### For example, if you want aditional information such as the PE ration of a stock, Profit Margin, or wether or not a stock has dividends, you can add as parameters.
 
 ```console
 $ python3 scrapeStocks.py aapl googl tsla --headers PE Volume Profit_Margin Dividend_
@@ -117,5 +116,6 @@ Your requested headers are: Idx, Market_Cap, Income, Price, PE, Volume, Profit_M
 ```
 
 more features to implement:
+allow fetching data through proxies
 retrieve stock chart data
 retrieve stock news data
