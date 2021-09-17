@@ -2,7 +2,12 @@
 
 A Command Line too to scrape stock fundamental data from finiviz.
 
+
+
 ## Usage
+
+### Requirements
+make sure you have the required libraries install. Run `pip install -r requirements.txt` to install dependancies.
 
 cd into scrapeStocks directory and run ```python3 scrapeStocks --help```
 
